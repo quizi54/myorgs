@@ -1,0 +1,64 @@
+#+TITLE: Практическое задание 1.1.2
+* Найти место в книге по оглавлению, где объясняются следующие моменты и понятия:
+** генератор как таковой. Описание работы любого генератора
+    *Генератор* — это функция, которая возвращает объект *генератора*,
+    для которого вы можете вызвать метод =next()=, чтобы при каждом
+    вызове он возвращал значение или следующее значение. Обычная
+    функция Python использует ключевое слово =return= для возврата
+    значений, но генераторы используют ключевое слово =yield= для
+    возврата значений.
+
+    - https://pythonist.ru/generatory-python-ih-sozdanie-i-ispolzovanie/
+    - https://skillbox.ru/media/code/generatory_python_chto_eto_takoe_i_zachem_oni_nuzhny/ 
+** итератор
+    - https://devpractice.ru/python-lesson-15-iterators-and-generators/
+    - https://pythonist.ru/chto-iz-sebya-predstavlyaet-iterator-v-python-sozdaem-svoj-sobstvennyj-iterator/
+** декоратор
+    *Декоратор* в Python – это функция, которая в качестве аргумента
+    принимает другую функцию и расширяет ее функционал без изменения
+    последней.
+    - https://pythonworld.ru/osnovy/dekoratory.html
+    - https://habr.com/ru/post/141411/
+** генератор списков, генератор множеств, генератор словарей
+    - https://all-python.ru/osnovy/generator-spiska.html
+    - https://pythonist.ru/generatory-spiskov-v-python-dlya-nachinayushhih/
+    - https://pyprog.pro/python/py/set/set_generators.html
+    - https://docs-python.ru/tutorial/ispolzovanie-mnozhestv-set-python/vyrazhenie-mnozhestvo/
+    - https://ru.hexlet.io/courses/python-declarative-programming/lessons/set-and-dict-comprehensions/theory_unit
+    - https://pyprog.pro/python/py/dict/dict_generators.html
+** генераторное выражение
+    - https://pythonist.ru/generatory-v-python/
+    - https://docs-python.ru/tutorial/generatory-python/vyrazhenie-generator/
+** менеджер контекста "with"
+    - https://python-scripts.com/contextlib
+    - https://docs-python.ru/tutorial/osnovnye-vstroennye-tipy-python/kontekstnyj-menedzher-with/
+** функции: map, zip
+    Встроенная в Python функция map() используется для применения
+    функции к каждому элементу итерируемого объекта (например, списка
+    или словаря) и возврата нового итератора для получения
+    результатов. Функция map() возвращает объект map (итератор),
+    который мы можем использовать в других частях нашей программы.
+    - http://pythonicway.com/python-functinal-programming
+    - https://pythonist.ru/python-map-znakomstvo/
+
+    Функция zip() позволяет в одном цикле for производить параллельную
+    обработку данных. Это очень мощный инструмент! Zip принимает в
+    качестве аргументов объекты, элементы которых будут объединены в
+    кортежи, полученную структуру можно превратить в список кортежей, если
+    это необходимо.
+    - https://pythonru.com/uroki/funkcija-zip-dlja-nachinajushhih
+    - https://medium.com/nuances-of-programming/9-%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B5%D0%B9-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-zip-%D0%B2-python-c673b1c753de
+    - https://proproprogs.ru/python_base/funkcii-map-filter-zip
+    - https://pixamp.com/posts/funktsii-reduce-map-i-zip-v-python/
+
+* Проработать по методическим материалам информацию о шестнадцатеричной системе счисления
+    Шестнадцатеричная система счисления (шестнадцатеричные числа) —
+    позиционная система счисления. Основанием шестнадцатеричной
+    системы счисления является число 16. Записывая числа в
+    восьмеричной системе счисления мы получаем довольно компактные
+    выражения, однако в шестнадцатеричной системе мы получаем
+    выражения более компактными.
+    - https://ru.wikipedia.org/wiki/%D0%A8%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D0%B4%D1%86%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F
+    - https://vscode.ru/prog-lessons/16-sistema.html
+
+** перевести в шестнадцатеричную систему счисления десятичное число 12345
